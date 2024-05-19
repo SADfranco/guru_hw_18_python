@@ -1,0 +1,5 @@
+pytest==8.2.0
+requests==2.31.0
+jsonschema==4.22.0
+selene==2.0.0rc9
+allure-pytest==2.13.5
