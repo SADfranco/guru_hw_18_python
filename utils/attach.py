@@ -7,8 +7,8 @@ import logging
 def request_url_and_body(response):
     allure.attach(body=response.request.url, name="Request URL", attachment_type=AttachmentType.TEXT, extension="txt")
 
-    allure.attach(body=response.request.body, name="Payload request",
-                  attachment_type=AttachmentType.JSON, extension="json")
+    allure.attach(body=response.request.body, name="Request payload",
+                  attachment_type=AttachmentType.TEXT, extension="txt")
 
 
 def response_json_and_cookies(response):
